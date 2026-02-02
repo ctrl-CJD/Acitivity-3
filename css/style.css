@@ -1,0 +1,113 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/*********************************/
+body {font-family: arial;}
+.main-container{
+	max-width: 1440px; /* Adjust as needed for your design */
+  margin: 0 auto; /* Centers the container horizontally */
+  padding: 0 20px; /* Adds padding on the sides for smaller screens */
+  width: 100%; /* Ensures it uses full width on very small screens */
+}
+.container {
+  display: grid;
+  grid-template-columns: auto auto;
+  /*background-color: dodgerblue;*/
+  padding: 5px;
+  gap: 5px;
+}
+.container div {
+  /*background-color: #f1f1f1;*/
+  color: #000;
+  padding: 10px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.navi li {
+	list-style: none;
+    float: right;
+    width: 150px;
+    text-align: center;
+    padding: 10px 0;
+    cursor: pointer;
+}
+
+.container_yellow {
+	
+	    background: #fcc302;
+}
+
+.btn {
+ background-color: #2ab1b1;
+    border:  2px solid #2ab1b1;
+    color: white;
+    border-radius: 8px;
+    padding: 20px 32px;
+    text-align: left;
+    margin-top: 80px;
+    margin-left: -375px;
+    margin-bottom: 40px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+
+.main-title {
+	font-size: 58px;
+    font-weight: 800;
+    text-align: left;
+    margin-top: 99px;
+    margin-left: 99px;
+    margin-bottom: 40px;
+    color: white;
+}
