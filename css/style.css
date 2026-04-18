@@ -49,19 +49,58 @@ table {
 
 
 /*********************************/
-body {font-family: arial;}
-.main-container{
-	max-width: 1440px; /* Adjust as needed for your design */
-  margin: 0 auto; /* Centers the container horizontally */
-  padding: 0 20px; /* Adds padding on the sides for smaller screens */
-  width: 100%; /* Ensures it uses full width on very small screens */
+body {
+	font-family: arial;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
 }
+.main-container{
+	width: 100%;
+	margin: 0 auto;
+	padding: 0;
+}
+
+.header {
+  padding: 20px;
+  background-color: #be9408;
+}
+
+.header-layout {
+  padding: 30px;
+  align-items: center;
+  margin-left: 70px;
+}
+
+.logo {
+  width: 140px;
+  cursor: pointer;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.navi {
+	text-align: right;
+	margin-right: 120px;
+}
+
+.navi ul {
+	color: white;
+}
+
 .container {
   display: grid;
   grid-template-columns: auto auto;
   /*background-color: dodgerblue;*/
-  padding: 5px;
-  gap: 5px;
+  padding: 0;
+  gap: 0;
+  width: 100%;
 }
 .container div {
   /*background-color: #f1f1f1;*/
@@ -93,7 +132,7 @@ body {font-family: arial;}
     padding: 20px 32px;
     text-align: left;
     margin-top: 80px;
-    margin-left: -375px;
+    margin-left: -850px;
     margin-bottom: 40px;
     text-decoration: none;
     display: inline-block;
